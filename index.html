@@ -8,9 +8,9 @@
 </head>
 <body>
     <div class="container">
-        <div class="left">
+        <div class="left" style="background-image: url(img/photo-1585202900225-6d3ac20a6962.avif);">
             <div class="logo-container">
-                <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png" alt="">
+                <img src="img/odin-lined.png" alt="">
                 <h1>ODIN</h1>
             </div>
             <div class="footer">
@@ -21,15 +21,45 @@
         <div class="right">
             <p><b>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. <br>Sign up <em>now</em> to get started.</b></p>
             <br>
-            <p><b>You know you want to.</b></p>
+            <span><b>You <em>know</em> you want to.</b></span>
 
             <div class="forms">
                 <h3>Let's do this!</h3>
+                <div class="only-forms">
+                    <div class="first">
+                        <form action="" method="post">
+                            <label for="first_name">FIRST NAME</label>
+                            <input type="text" id="first_name">
+                        </form>
+                        <form action="" method="post">
+                            <label for="email">EMAIL</label>
+                            <input type="text" id="email">
+                        </form>
+                        <form action="" method="post">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password">
+                        </form>
+                    </div>
 
+                    <div class="last">
+                        <form action="" method="post">
+                            <label for="last_name">LAST NAME</label>
+                            <input type="text" id="last_name">
+                        </form>
+                        <form action="" method="post">
+                            <label for="phone_number">PHONE NUMBER</label>
+                            <input type="text" id="phone_number">
+                        </form>
+                        <form action="" method="post">
+                            <label for="confirm_password">CONFIRM PASSWORD</label>
+                            <input type="password" id="confirm_password">
+                        </form>
+                    </div>
+                </div>
             </div>
 
             <button class="create-account">Create Account</button>
-            <p>Already habe an account? <a href="#">Log in</a></p>
+            <p>Already have an account? <a href="#">Log in</a></p>
         </div>
     </div>
 </body>

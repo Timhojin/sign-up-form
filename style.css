@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left {
+    flex: 1;
+    display: grid;
+}
+
+.logo-container {
+    height: 150px;
+    margin-top: 200px;
+    background-color: rgba(0, 0, 0, 0.266);
+    padding: 10px 80px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-container img {
+    width: 25%;
+}
+
+.logo-container h1 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 80px;
+    letter-spacing: -5px;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    align-self: end;
+    margin-bottom: 15px;
+}
+
+.footer a {
+    color: white;
+}
+
+/* ------------- Right side ------------- */
+
+.right {
+    flex: 2 1 0;
+    padding: 150px 0;
+}
+
+.right p:first-child, .right span {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 50px;
+    width: 650px;
+}
+
+.forms {
+    margin-top: 50px;
+    padding: 25px 50px;
+    padding-bottom: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.forms h3 {
+    color: rgb(70, 70, 70);
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+}
+
+.only-forms {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #2f2f2f;
+}
+
+input {
+    border-radius: 3px;
+    border: 1px solid rgb(133, 133, 133);
+    height: 24px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.only-forms {
+    display: flex;
+    gap: 70px;
+}
+
+.only-forms div {
+    width: 220px;
+}
+
+.create-account {
+    padding: 15px 50px;
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    background-color: #596D48;
+    border: none;
+    border-radius: 6px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+p:last-of-type {
+    margin-left: 50px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    margin-top: 40px;
+}
+
+.right a:last-of-type {
+    text-decoration: none;
+    color: #596D48;
+    font-size: 18px;
+    margin-top: 40px;
+}
